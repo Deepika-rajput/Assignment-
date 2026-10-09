@@ -7,87 +7,7 @@ download the results (one by one or as a ZIP).
 output example-[0002-rahul-verma.pdf](https://github.com/user-attachments/files/33240787/0002-rahul-verma.pdf)
 
 
-## Setup%PDF-1.4
-%���� ReportLab Generated PDF document (opensource)
-1 0 obj
-<<
-/F1 2 0 R /F2 3 0 R /F3 4 0 R
->>
-endobj
-2 0 obj
-<<
-/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
->>
-endobj
-3 0 obj
-<<
-/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
->>
-endobj
-4 0 obj
-<<
-/BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
->>
-endobj
-5 0 obj
-<<
-/Contents 9 0 R /MediaBox [ 0 0 841.8898 595.2756 ] /Parent 8 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
->>
-endobj
-6 0 obj
-<<
-/PageMode /UseNone /Pages 8 0 R /Type /Catalog
->>
-endobj
-7 0 obj
-<<
-/Author (Amazon Web Services) /CreationDate (D:20261009134059+05'00') /Creator (anonymous) /Keywords () /ModDate (D:20261009134059+05'00') /Producer (ReportLab PDF Library - \(opensource\)) 
-  /Subject (unspecified) /Title (Certificate - Rahul Verma) /Trapped /False
->>
-endobj
-8 0 obj
-<<
-/Count 1 /Kids [ 5 0 R ] /Type /Pages
->>
-endobj
-9 0 obj
-<<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 621
->>
-stream
-Gatn"?a#YI(rl%?'[NVEXL9d!Bm2L[2RDK.:,_+B#$)]JL&n0>TABY@30,k8;/#`kQJ_R%I9lsB:GH+\$@!6Eohn$diZ(9?M>/-M3+1H\@5XEMA>K:$Y^aIND'8@+3.Osm+tK$8ej)gG-rLtC__r(DPYh#tMLJ6mb:.oB1`q@D-A'`q:!,+MfAs])F8;U@1KIUK_\#sp0jebVeT*O>`J^(=59YJ5W":5=[U;GFLjKtQImd'D0AQ12&kr<8$)M5h$p@"Y!O?$@^4,fq^PGtWpGZJHLd?s'f<g4Z1;f)?BLbb/03\.ue];"E(&80l53ZqbHLl@lPidjGehCs:a2u`?9sR!Lpu%Sjq$Vid!&J*dLbgRY+-AhmIJI(?48a$":rlVsQ]iH5ga=]-A!X[6c&ZF]6<70[9@p`19ubPAFOErVs2>o$9VadLNB8kAggXU@`uQ4i,jU>jW"6&A/RZmdlVaM?N$MO30l"?o3]@5O=D(p1\d$)Es$'a:4O3EBg!NgS*o.=jBo6&YI&dd&F=FZ$q,2I(0<qNq<SsRtmQ[sD(YPi`7)ZJ+krr<4*thji?7Ap!;^cR/UiJI-c:/JHGW89#P"r+?3mY_s:H?0<"i5C+)AKL~>endstream
-endobj
-xref
-0 10
-0000000000 65535 f 
-0000000061 00000 n 
-0000000112 00000 n 
-0000000219 00000 n 
-0000000331 00000 n 
-0000000446 00000 n 
-0000000649 00000 n 
-0000000717 00000 n 
-0000001005 00000 n 
-0000001064 00000 n 
-trailer
-<<
-/ID 
-[<23899a02f3304e1bb3456fd0cb2f52ac><23899a02f3304e1bb3456fd0cb2f52ac>]
-% ReportLab generated PDF document -- digest (opensource)
-
-/Info 7 0 R
-/Root 6 0 R
-/Size 10
->>
-startxref
-1775
-%%EOF
-
+## Setup
 
 ```bash
 python -m venv .venv && source .venv/bin/activate      # Windows: .venv\Scripts\activate
@@ -196,4 +116,3 @@ Each item in the certificates list carries its own `download_url`.
   with a clear error. Supporting them = register a TTF (e.g. Noto) with ReportLab.
 - No auth, rate limiting, or email delivery. No Alembic migrations (`create_all` on startup).
 - Local disk storage; swap for S3/object storage for multi-instance deployments.
-
